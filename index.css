@@ -1,0 +1,51 @@
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+    display: flex;
+}
+
+.header div {
+    flex: 1;
+    height: 100px;
+}
+
+.header.secondary {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.header.logo {
+    size: 24px;
+}
+
+.imgbox {
+    border-color: #3882F6;
+    border-radius: 5;
+    display: flex;
+}
+
+.button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    display: flex;
+}
+
+a:active {
+    color: #E5E7EB;
+}
+
+body {
+    color: #1F2937;
+    size: 36px;
+    font-weight: 800;
+}
