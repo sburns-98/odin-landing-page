@@ -2,21 +2,29 @@ body {
     font-size: 18px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
     color: #1F2937;
 }
 
 .header-top, .header-item, .info, .quote, .action-call, .footer {
     display: flex;
     border: 2px solid black;
-    flex: 1;
-    width: 2000px;
+    padding-right: 200px;
+    padding-left: 200px;
 }
 
 .header-top, .header-item, .footer{
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+.header-top, .footer {
+    height: 50px;
+    align-items: center;
+}
+
+.header-item {
+    height: 400px;
+    align-items: center;
 }
 
 .header.title {
@@ -31,12 +39,16 @@ body {
 }
 
 .header.container.secondary {
-    background-color: #E5E7EB;
+    background-color: #a1a1a1;
 }
 
 .header.logo, .action-call.title {
     font-size: 24px;
     font-weight: 800;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .button {
@@ -44,6 +56,8 @@ body {
     background-color: #3882F6;
     border-radius: 5px;
     color: #F9FAF8;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .info {
@@ -52,6 +66,7 @@ body {
     font-size: 18px;
     border: 2px solid black;
     justify-content: center;
+    height: 400px;
 }
 
 .info.container {
@@ -83,6 +98,9 @@ body {
     background-color: #E5E7EB;
     flex-direction: column;
     text-align: right;
+    font-size: 24px;
+    font-weight: 800;
+    height: 400px;
 }
 
 .quote.text {
@@ -93,18 +111,28 @@ body {
 }
 
 .action-call {
+    justify-content: center;
+    height: 400px;
+}
+
+.action-call.container {
     background-color: #3882F6;
     border-radius: 5px;
     color: #F9FAF8;
+    flex: 1;
+    display: flex;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
-.action-call div {
-    flex: 1;
-    width: auto;
+.action-call.title p {
+    font-size: 18px;
+    font-weight: normal;
 }
 
 .button.action-call {
     border-color: #F9FAF8;
+    flex: 1;
 }
 
 .footer {
