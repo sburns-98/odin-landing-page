@@ -3,11 +3,11 @@ body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     color: #1F2937;
+    justify-content: center;
 }
 
 .header-top, .header-item, .info, .quote, .action-call, .footer {
     display: flex;
-    border: 2px solid black;
     padding-right: 200px;
     padding-left: 200px;
 }
@@ -35,7 +35,6 @@ body {
 .header.container {
     flex: 1;
     display: flex;
-    border: 2px solid black;
 }
 
 .header.container.secondary {
@@ -55,16 +54,20 @@ body {
     flex: 1;
     background-color: #3882F6;
     border-radius: 5px;
-    color: #F9FAF8;
+    border-color: #F9FAF8;
     padding-left: 0px;
     padding-right: 0px;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100px;
+    border-style: solid;
 }
 
 .info {
     flex-direction: column;
     color: #1F2937;
     font-size: 18px;
-    border: 2px solid black;
     justify-content: center;
     height: 400px;
 }
@@ -86,10 +89,10 @@ body {
 }
 
 .imgbox {
-    width: 20px;
-    height: 20px;
+    width: 100px;
+    height: 100px;
     border: 2px solid #3882F6;
-    border-radius: 5;
+    border-radius: 5px;
     display: flex;
     align-self: center;
 }
@@ -123,6 +126,7 @@ body {
     display: flex;
     padding-left: 0px;
     padding-right: 0px;
+    align-items: center;
 }
 
 .action-call.title p {
@@ -132,7 +136,10 @@ body {
 
 .button.action-call {
     border-color: #F9FAF8;
-    flex: 1;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: #F9FAF8;
 }
 
 .footer {
